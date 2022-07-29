@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	if (fp == NULL)
 	{
 		printf("Can't open '%s'\n", FILENAME_1);
-		printf("Please provide filename on command line.");
+		printf("Please provide filename on command line.\n");
 
 		return 1;
 	}
