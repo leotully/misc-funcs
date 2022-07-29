@@ -25,7 +25,6 @@ int main(int argc, char *argv[])
 	printf("\nYou entered:\n> %s\n", buffer);
 
 	printf("\nPress [Enter] to continue... ");
-
 	fgetc(stdin);
 	
 	/* for input from a file also check for end of file or it will go into    */
@@ -33,7 +32,7 @@ int main(int argc, char *argv[])
 	if (argc == 2)
 		strcpy(filename, argv[1]);
 	
-	fp = fopen(FILENAME_1, "r");
+	fp = fopen(filename, "r");
 
 	if (fp == NULL)
 	{
