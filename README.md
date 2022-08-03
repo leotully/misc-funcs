@@ -14,5 +14,5 @@ getche gets a character from console, and echoes to the screen.
 remove c and c++ style comments from source code file.
 ---
 - dtab.c\
-convert tabs to space.s
+convert tabs to spaces.
 ---
