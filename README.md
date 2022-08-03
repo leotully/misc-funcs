@@ -1,12 +1,18 @@
-# <span style="color:#a1bdff" bold><b>Miscellaneous functions and how-to docs</b></span>
+# Miscellaneous functions and how-to docs
 
-- <span style="color:#3eded3" bold><b>linecnt.c</b></span>\
-get precise line count from file, counting line by line instead of charactter by charator.
+- linecnt.c\
+get precise line count from file, counting line by line instead of character by character.
 ---
-- <span style="color:#3eded3" bold><b>fgets.c</b></span>\
+- fgets.c\
   how to clean the buffer of any overflow after fgets call.
 ---
-- <span style="color:#3eded3" bold><b>getch.h</b></span>\
+- getch.h\
   getch gets a character from console but does not echo to the screen.\
   getche gets a character from console, and echoes to the screen.
+---
+- dcom.c\
+  remove c and c++ style comments from source code file.
+---
+- dtab.c\
+  convert tabs to spaces
 ---
