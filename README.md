@@ -16,3 +16,6 @@ remove c and c++ style comments from source code file.
 - dtab.c\
 convert tabs to spaces.
 ---
+- retab.c\
+convert spaces to tabs.
+---
