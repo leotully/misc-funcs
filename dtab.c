@@ -1,3 +1,11 @@
+/*******************************************************************************
+usage: dtab <input file> [tabsize]
+
+if tabsize is omitted 4 spaces will be used.
+output is to stdout (screen). to output to a file it must be redirected:
+  dtab file.c > newfile.c
+  
+*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -53,7 +61,7 @@ int main(int argc, char *argv[])
 void showhelp(void)
 {
     printf("usage: dtab <input file> [tabsize]\n\n");
-    printf("if tabsize is ommited 4 spaces will be used.\n\n");
+    printf("if tabsize is omitted 4 spaces will be used.\n\n");
     printf("output is to stdout (screen). to output to a file it must be redirected:\n");
     printf("  dtab file.c > newfile.c\n");
     exit(1);

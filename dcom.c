@@ -1,3 +1,10 @@
+/*******************************************************************************
+usage: dcom <filename>
+
+output is to stdout (screen). to output to a file it must be redirected:
+  dcom file.c > newfile.c
+
+*******************************************************************************/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
