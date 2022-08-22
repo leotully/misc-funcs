@@ -15,10 +15,10 @@ long int file_line_count(char *filename)
 
     /* if first character is EOF return 0, file is empty */
     if ((ch = fgetc(fp)) == EOF)
-	{
-		fclose(fp);
+    {
+        fclose(fp);
         return 0;
-	}
+    }
 
     rewind(fp);
 
