@@ -20,5 +20,8 @@ convert tabs to spaces.
 convert spaces to tabs.
 ---
 - trimws.c\
-trim white space from both sides (ALL), LEFT only or RIGHT only
+trim white space from both sides (ALL), LEFT only or RIGHT only.
+---
+- loadfile.c\
+load a text file into a dynamic array of strings.
 ---
