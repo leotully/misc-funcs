@@ -19,3 +19,6 @@ convert tabs to spaces.
 - retab.c\
 convert spaces to tabs.
 ---
+- trimws.c\
+trim white space from both sides (ALL), LEFT only or RIGHT only
+---
